@@ -1,0 +1,19 @@
+<h1>your  content is</h1>
+{{msg}}
+<h1>Totel numbers of words you entered:{{length}}</h1>
+<h2>count</h2>
+{{abc}}
+<hr />
+<b> all words count</b>
+<ol type="1">
+  {% for key, value in abc.items %}
+  <li>{{key}} : {{value}}</li>
+  {% endfor %}
+  </ol>
+
+  <b> all words count</b>
+  <ol type="1">
+    {% for key, value in cba %}
+    <li>{{key}} : {{value}}</li>
+    {% endfor %}
+    </ol>
